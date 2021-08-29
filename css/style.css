@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body, html {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+
+.container-fluid {
+    padding: 0;
+   
+}
+
+.row {
+    margin: 0;
+    padding: 10px 0;
+}
+
+li a {
+    font-weight: bold;
+}
+
+/* header section */
+
+#contact {
+    background-color: #F6C90E;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#contact:hover {
+    background-color: #d4ad0e;
+}
+
+#welcome {
+    background-color: rgb(16, 28, 42);
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#welcome h1, h2 {
+    color: #F6C90E;
+}
+
+#welcome h1 {
+    font-size: 50px;
+}
+
+#welcome p {
+    width: 80%;
+}
+
+#welcome a {
+    background-color: #F6C90E;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#welcome a:hover {
+    background-color: #d4ad0e;
+}
+
+/* main section */
+
+/* about us section */
+
+
+
+#about-us #col-1 {
+    padding-left: 20px;
+}
+
+#about-us h2 {
+    border-left: solid 7px #F6C90E;
+    padding-left: 10px;
+}
+
+#about-us #col-1 p {
+    margin-top: 30px;
+    width: 80%;
+}
+
+#about-us #col-1 h4 {
+    margin: 30px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* services section */
+
+#services {
+    background-color: rgb(16, 28, 42);
+    padding: 30px 0;
+}
+
+#services h2 {
+    border-left: solid 7px #F6C90E;
+    padding-left: 10px;
+}
+
+#services #col-1 p {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    width: 80%;
+}
+
+#services #col-2 .row {
+    color: red;
+}
+
+#services .field {
+    background-color: rgb(31, 56, 83);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px -5px rgb(54, 97, 143);
+}
+
+#services #fields p {
+    color: #fff;
+}
+
+/* contact-us section */
+
+#contact-us {
+    background-color: rgb(18, 32, 48);
+    color: #fff;
+}
+
+#contact-us .option {
+    margin: 10px 0;
+}
+
+#contact-us a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact-us img {
+    margin-right: 10px;
+}
+
+/* footer section */
+
+footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h6 {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    text-align: right;
+}
+
+/* */
+
+.font-style {
+    color: #F6C90E;
+    font-weight: bold;
+}
+
+/* custom style for screen */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer h6 {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media (min-width: 576px) and (max-width: 768px) {}
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+
+@media (min-width: 1199.98px) {}
